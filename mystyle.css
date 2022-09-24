@@ -22,24 +22,29 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #4EFF66;
+  background-color: green;
 }
 
 .topnav2 {
   overflow: hidden;
-  background-color: #00E8F5;
+  background-color: cyan;
 }
 
 .topnav3 {
   overflow: hidden;
-  background-color: #D26BF7;
+  background-color: purple;
+}
+
+.topnav4 {
+  overflow: hidden;
+  background-color: blue;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -48,14 +53,14 @@ body {
 /* Change color on hover */
 .topnav a:hover {
   background-color: tomato;
-  color: black;
+  color: yellow;
 }
 
 /* Style the topnav links */
 .topnav2 a {
   float: left;
   display: block;
-  color: #black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -64,14 +69,14 @@ body {
 /* Change color on hover */
 .topnav2 a:hover {
   background-color: #F5DA02;
-  color: black;
+  color: yellow;
 }
 
 /* Style the topnav links */
 .topnav3 a {
   float: left;
   display: block;
-  color: #black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -79,8 +84,24 @@ body {
 
 /* Change color on hover */
 .topnav3 a:hover {
-  background-color: #6CAEF6;
-  color: black;
+  background-color: blue;
+  color: yellow;
+}
+
+/* Style the topnav links */
+.topnav4 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav4 a:hover {
+  background-color: #EB3324;
+  color: yellow;
 }
 
 /* Create two unequal columns that floats next to each other */
