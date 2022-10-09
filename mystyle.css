@@ -106,7 +106,7 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -148,9 +148,60 @@ body {
   margin-top: 20px;
 }
 
+input[type=text], select,
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=url],
+input[type=date],
+input[type=time],
+input[type=range] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit],
+input[type=reset] {
+  width: 49%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.password-container{
+  width: 100%;
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye{
+  position: absolute;
+  top: 34%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -162,9 +213,70 @@ body {
     float: none;
     width: 100%;
   }
-  
+
   .topnav2 a {
     float: none;
     width: 100%;
   }
 }
+
+ .social-menu ul{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   padding: 0;
+   margin: 0;
+   transform: translate(-50%, -50%);
+   display: flex;
+ }
+ .social-menu ul li{
+   list-style: none;
+   margin: 0 15px;
+ }
+ .social-menu ul li .fab{
+   font-size: 30px;
+   line-height: 60px;
+   transition: .3s;
+   color: #000;
+ }
+ .social-menu ul li .fab:hover{
+   color: #fff;
+ }
+ .social-menu ul li a{
+   position: relative;
+   display: block;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: #fff;
+   text-align: center;
+   transition: .6s;
+   box-shadow: 0 5px 4px rgba(0,0,0,.5);
+ }
+ .social-menu ul li a:hover{
+   transform: translate(0, -10%);
+ }
+ .social-menu ul li:nth-child(1) a:hover{
+   background-color: #FF1E1E;
+ }
+ .social-menu ul li:nth-child(2) a:hover{
+   background-color: #002E94;
+ }
+ .social-menu ul li:nth-child(3) a:hover{
+   background-color: #FB743E;
+ }
+ .social-menu ul li:nth-child(4) a:hover{
+   background-color: #4A47A3;
+ }
+ .social-menu ul li:nth-child(5) a:hover{
+   background-color: #2192FF;
+ }
+ .social-menu ul li:nth-child(6) a:hover{
+   background-color: #38E54D;
+ }
+ .social-menu ul li:nth-child(7) a:hover{
+   background-color: #FF1E1E;
+ }
+ .social-menu ul li:nth-child(8) a:hover{
+   background-color: #FF1E1E;
+ }

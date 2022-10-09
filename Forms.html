@@ -6,6 +6,8 @@ FORMS
 </Title>
 <link href="profil favicon.png" rel="shortcut icon"/>
 <link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="emoji.js"></script>
 </head>
 
 <body>
@@ -19,80 +21,115 @@ FORMS
   <a href="index.html">Beranda</a>
   <a href="profil.html">Profil</a>
   <a href="Media Sosial.html">Media Sosial</a>
-  <a href="Forms.html" style="float:right">Verivication</a>
+  <a href="Forms.html" style="float:right">Verification</a>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
       <h1>Personal Data</h1>
-	  <form action="/action_page.php">
-		<label for="fname">Full Name:</label>
-		<input type="text" id="fname" name="fname" placeholder="Fill Full Name"><br><br>
-		
+	  <form action="index.html">
+
+    <i class="fas fa-globe"></i>
+
+	  <label for="fname">Data Diri</label><br><br>
+
+		<label for="fname">Nama Lengkap:</label>
+		<input type="text" id="fname" placeholder="isi nama lengkap"><br><br>
+
 		<label for="lname">Email:</label>
-	    <input type="text" id="lname" name="lname" placeholder="Fill Email"><br><br>
-		
-		<label for="lname">Password:</label>
-	    <input type="password" id="pwd" name="pwd"><br><br>
-		
+	    <input type="email" id="email" placeholder="isi email"><br><br>
+
+    <label for="lname">Password:</label>
+    <div class="password-container">
+      <input type="password" placeholder="Password..." id="password">
+    <i class="fa-solid fa-eye" id="eye"></i>
+    </div>
+
+		<label for="lname">Nomor Telepon:</label>
+	    <input type="number" id="hp"><br><br>
+
+		<label for="lname">Website:</label>
+	    <input type="url" id="website"><br><br>
+
+		<label for="lname">Warna Favorit:</label>
+	    <input type="color" id="warna"><br><br>
+
 		<label for="lname"> Date Of Birth:</label>
-		<input type="date" id="bdaydate" name="bdaydate"><br><br>
-		
-		<label for="lname">Gender:</label><br>
-	    <input type="radio" id="radio_group" name="lname" value="Male">Male<br>
-		<input type="radio" id="radio_group" name="lname" value="Female">Female<br><br>
-		
+		<input type="date" id="bdaydate"><br><br>
+
+		<label for="lname">Jenis Kelamin:</label><br>
+	    <input type="radio" id="radio_group">Male<br>
+		<input type="radio" id="radio_group">Female<br><br>
+
+		<label for="lname">Berat Badan:</label>
+	    <input type="range" id="bb"><br><br>
+
+		<label for="lname">Status:</label><br>
+	    <input type="checkbox" id="check_box"> Singel <br>
+		<input type="checkbox" id="check_box"> Menikah <br>
+		<input type="checkbox" id="check_box"> Janda/Duda <br><br>
+
+		<label for="lname">Jam Kerja:</label>
+	    <input type="time" id="time"><br><br>
+
 		<label for="lname">Jenis Tempat Tinggal:</label>
-		<select name="cars" id="cars">
-		<option value="volvo">Rumah</option>
-		<option value="saab">Ruko</option>
-		<option value="mercedes">Apartemen</option>
-		<option value="audi">Jalanan</option>
+		<select>
+		<option>Rumah</option>
+		<option>Ruko</option>
+		<option>Apartemen</option>
+		<option>Istanah</option>
+		<option>Istanah</option>
+
 		</select><br><br>
-		
+
 		<label for="lname">Hobi:</label><br>
-	    <input type="checkbox" id="check_box" name="lname" value="Olah Raga"> Olah Raga <br>
-        <input type="checkbox" id="check_box" name="lname" value="Baca Buku"> Baca Buku <br>
-		<input type="checkbox" id="check_box" name="lname" value="Traveling"> Jalan-Jalan <br>
-		<input type="checkbox" id="check_box" name="lname" value="Gaming"> Main Game <br>
-		<input type="checkbox" id="check_box" name="lname" value="Nonton"> Nonton Film <br>
-		<input type="checkbox" id="check_box" name="lname" value="Bernyanyi"> Bernyanyi <br>
-		<input type="checkbox" id="check_box" name="lname" value="Menggambar"> Menggambar <br>
-		<input type="checkbox" id="check_box" name="lname" value="Menulis"> Menulis <br><br>
-		
-		<input type="button" onclick="alert('The Form Has Been Sent')" value="Submit!" onclick="index.html">
-		
+	    <input type="checkbox" id="check_box"> Olah Raga <br>
+        <input type="checkbox" id="check_box"> Baca Buku <br>
+		<input type="checkbox" id="check_box"> Jalan-Jalan <br>
+		<input type="checkbox" id="check_box"> Main Game <br>
+		<input type="checkbox" id="check_box"> Nonton Film <br>
+		<input type="checkbox" id="check_box"> Bernyanyi <br>
+		<input type="checkbox" id="check_box"> Menggambar <br>
+		<input type="checkbox" id="check_box"> Menulis <br><br>
+
+		<input type="submit" onclick="alert('The Form Has Been Sent')" value="Submit!" onclick="index.html">
+
 		<input type="reset" onclick="alert('The Form Has Been Reset')" value="Reset!">
 	  </form>
 	</div>
 	</div>
-  
-  
+
+
   <div class="rightcolumn">
-	
+
      <div class="card">
       <h2>Sharing Firman</h2>
       <div><h4><a href="https://youtu.be/fRdTa4aSfIA">Membersihkan Hati</a></h4></div>
       <div><h4><a href="https://youtu.be/9mq1A1vCRg8">Jangan Salah Mengambil Keputusan</a></h4></div>
       <div><h4><a href="https://youtu.be/FGw14LJRtSQ">Memberi Yang Terbaik</a></h4></div>
     </div>
-	
+
    <div class="card">
       <h3>Follow Me</h3>
       <p>Jika difollow ga bakal ada ruginya, karena ini sangat berguna</p>
     </div>
   </div>
-  
-  <div class="leftcolumn">
-    <div class="card">
-	 <h1>Comment</h1>
-	  <form action="/action_page.php">
-	   <textarea name="message" rows="10" cols="30" placeholder="Fill This Colom"></textarea> <br><br>
-	    <input type="button" onclick="alert('The Form Has Been Sent')" value="Submit!" onclick="index.html">
-		
-		<input type="reset" onclick="alert('The Form Has Been Reset')" value="Reset!">
-	  </form>
+
+ <div class="leftcolumn">
+   <div class="card">
+	<h1>Comment</h1>
+	  <form method="post" action="index.html">
+
+	  <label for="fname">Nama Lengkap:</label>
+	  <input type="text" id="fname" placeholder="isi nama lengkap"><br><br>
+
+	  <textarea name="message" rows="20" cols="138,5" placeholder="isi kolom ini dengan tulisan, tulisan dapat lebih dari 1 baris"></textarea> <br><br>
+
+	  <input type="submit" onclick="alert('The Form Has Been Sent')" value="Submit!" onclick="index.html">
+
+	  <input type="reset" onclick="alert('The Form Has Been Reset')" value="Reset!">
+   </form>
   </div>
  </div>
 </div>
@@ -101,6 +138,17 @@ FORMS
   <h2>@Copyright JOTEP UNIVERSE</h2>
 </div>
 
+<script>
+const passwordField = document.querySelector("#password");
+const eyeIcon= document.querySelector("#eye");
+
+eye.addEventListener("click", function(){
+  this.classList.toggle("fa-eye-slash");
+  const type = passwordField.getAttribute("type") === "password" ? "text" : "password";
+  passwordField.setAttribute("type", type);
+})
+
+</script>
+
 </body>
 </html>
-
