@@ -3,10 +3,16 @@
 }
 
 /* Header/Blog Title */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #C1EFFF;
+}
+
 .header {
   padding: 30px;
   text-align: center;
-  background: #EFFFFD;
+  background: #FFE3E1;
 }
 
 .header h1 {
@@ -14,7 +20,7 @@
   color: black;
 }
 
-.header h5 {
+.text {
   color: black;
 
 }
@@ -22,7 +28,7 @@
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #14C38E;
+  background-color: #D62AD0;
 }
 
 /* Style the topnav links */
@@ -37,15 +43,15 @@
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: tomato;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 
 body {
   margin: 0;
   color: #6a6f8c;
   background: #EFFFFD;
-  font: 600 16px/18px "Open Sans", sans-serif;
+  font: 600 16px/18px "Arial", Arial;
 }
 
 *,

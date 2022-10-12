@@ -5,12 +5,12 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #C1EFFF;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   background: white;
 }
@@ -22,22 +22,22 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: green;
+  background-color: #5800FF;
 }
 
 .topnav2 {
   overflow: hidden;
-  background-color: cyan;
+  background-color: #007965;
 }
 
 .topnav3 {
   overflow: hidden;
-  background-color: purple;
+  background-color: #FF8E00;
 }
 
 .topnav4 {
   overflow: hidden;
-  background-color: blue;
+  background-color: #F90716;
 }
 
 /* Style the topnav links */
@@ -52,8 +52,8 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: tomato;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 
 /* Style the topnav links */
@@ -68,8 +68,8 @@ body {
 
 /* Change color on hover */
 .topnav2 a:hover {
-  background-color: #F5DA02;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 
 /* Style the topnav links */
@@ -84,8 +84,8 @@ body {
 
 /* Change color on hover */
 .topnav3 a:hover {
-  background-color: blue;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 
 /* Style the topnav links */
@@ -100,8 +100,8 @@ body {
 
 /* Change color on hover */
 .topnav4 a:hover {
-  background-color: #EB3324;
-  color: yellow;
+  background-color: white;
+  color: black;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -115,7 +115,6 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
   padding-left: 20px;
 }
 
@@ -133,6 +132,12 @@ body {
   margin-top: 20px;
 }
 
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -144,8 +149,9 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #38E54D;
   margin-top: 20px;
+  color: white;
 }
 
 input[type=text], select,
@@ -240,7 +246,7 @@ input[type=submit]:hover {
    color: #000;
  }
  .social-menu ul li .fab:hover{
-   color: #fff;
+   color: black;
  }
  .social-menu ul li a{
    position: relative;
@@ -248,7 +254,7 @@ input[type=submit]:hover {
    width: 60px;
    height: 60px;
    border-radius: 50%;
-   background-color: #fff;
+   background-color: white;
    text-align: center;
    transition: .6s;
    box-shadow: 0 5px 4px rgba(0,0,0,.5);
@@ -266,16 +272,16 @@ input[type=submit]:hover {
    background-color: #FB743E;
  }
  .social-menu ul li:nth-child(4) a:hover{
-   background-color: #4A47A3;
+   background-color: #251B37;
  }
  .social-menu ul li:nth-child(5) a:hover{
-   background-color: #2192FF;
+   background-color: #4A47A3;
  }
  .social-menu ul li:nth-child(6) a:hover{
-   background-color: #38E54D;
+   background-color: #2192FF;
  }
  .social-menu ul li:nth-child(7) a:hover{
-   background-color: #FF1E1E;
+   background-color: #38E54D;
  }
  .social-menu ul li:nth-child(8) a:hover{
    background-color: #FF1E1E;
